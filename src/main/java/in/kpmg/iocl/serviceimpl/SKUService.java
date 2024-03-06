@@ -50,7 +50,7 @@ public class SKUService {
                     sku_altConversion.setMaterialDescription(skuRepository.getMat_Description(skuData.getMatnr()).get(0));
 
                     skuAltConversionResponse.getSkuAltConversion().add(sku_altConversion);
-                    logger.info("Data successfully updated based on material Number");
+                    logger.info("Data successfully fetched based on material Number");
 
                 }
                 /*ObjectMapper om = new ObjectMapper();
